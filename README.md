@@ -1,5 +1,5 @@
-# Nuxt 3 Starter
+#Personal Web Site
 
-🦾 Starter with Nuxt 3
-📦 Very basic starter contains Tailwind & FontAwesome
-⌚ Last update: 29/09/2023
+Techs:
+#Nuxt3
+#Tailwind
