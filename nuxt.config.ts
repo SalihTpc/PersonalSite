@@ -16,4 +16,31 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: "page", mode: "out-in" },
   },
+  modules: ["@nuxtjs/i18n"],
+  i18n: {
+    vueI18n: "./i18n.config.ts",
+    customRoutes: "page",
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: "i18n_redirected",
+      redirectOn: "root", // recommended
+    },
+    langDir: "locales",
+    lazy: true,
+    locales: [
+      {
+        code: "en",
+        iso: "en",
+        name: "EN",
+        file: "en.json",
+      },
+      {
+        code: "tr",
+        iso: "tr",
+        name: "TR",
+        file: "tr.json",
+      },
+    ],
+    defaultLocale: "en",
+  },
 });
