@@ -12,7 +12,7 @@ import "./assets/fontawesome-6.1.2/css/all.min.css";
 <style>
 .page-enter-active,
 .page-leave-active {
-  transition: all 0.4s;
+  transition: all 0.3s;
 }
 .page-enter-from,
 .page-leave-to {
