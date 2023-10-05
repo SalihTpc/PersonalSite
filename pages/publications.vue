@@ -1,7 +1,9 @@
-<script setup></script>
+<script setup>
+defineI18nRoute(false);
+</script>
 
 <template>
-  <div class="mx-32 pt-32 h-full min-h-screen">
+  <div>
     <h1 class="text-center text-2xl">{{ $t("Publications") }}</h1>
     <div class="flex items-center justify-center my-4">
       <NuxtLink to="/" class="py-2 px-4 bg-slate-400 text-white rounded-2xl"
