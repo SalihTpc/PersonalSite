@@ -16,7 +16,7 @@ const { enabled, toggleTheme } = useTheme();
 <template>
   <div>
     <button
-      class="text-2xl rounded-full px-1 py-0.5 sm:px-2 sm:py-1 bg-white hover:scale-[1.1] hover:font-semibold dark:bg-black flex items-center justify-center"
+      class="text-2xl rounded-full px-1 py-0.5 sm:px-2 sm:py-1 bg-white hover:scale-[1.1] hover:font-semibold dark:bg-black flex items-center justify-center transition duration-100 ease-in-out dark:hover:bg-slate-800"
       @click="toggleTheme"
     >
       <i v-if="enabled" class="fa-solid fa-moon dark:text-slate-500"></i>
