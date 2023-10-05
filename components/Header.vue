@@ -4,9 +4,9 @@ const items = computed(() => [
   { id: 1, path: "/", icon: "fa-duotone fa-house", title: t("Home") },
   {
     id: 2,
-    path: "/publications",
+    path: "/references",
     icon: "fa-duotone fa-book-open-cover",
-    title: t("Publications"),
+    title: t("References"),
   },
   {
     id: 3,
